@@ -1,0 +1,9 @@
+font-family: 'Pattaya', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+
+index
+
+As melhores pizzas da cidade
+
+Se você está buscando uma deliciosa pizza para saciar a sua fome você acabou de encontrar o lugar certo!

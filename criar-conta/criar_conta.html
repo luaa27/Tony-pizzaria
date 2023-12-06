@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./conta.css">
+    <script src="./conta.js" defer> </script>
+    <title>Criar Conta</title>
+</head>
+<body>
+    <div class="overlay"></div>
+    <header><a href="../login/index.html" class="voltar"><img src="../img/seta.png" alt=""></a> Criar conta</header>
+    <main>
+        <div class="profile">
+            <div class="criar-icon" id="icon">
+            </div>
+            <label class="add-img"> 
+                <img src="../img/add-photo.png" alt="">
+                <input type="file" class="add-img-input" id="add-img">
+            </label>
+        </div>
+        <form class="espaco-criar">
+            <div class="info">
+                <div class="log"><label>Nome do usuário</label><input type="text" id="nome" required></div>
+                <div class="log"><label>Endereço de email</label><input type="email" name="email" id="email" required></div>
+                <div class="log"><label>Senha</label><input type="password" name="password" id="senha" required></div>
+                <div class="log"><label>Confirmação de senha</label><input type="password" name="password" id="confirma-senha" required></div>
+                <div class="log"><label>Telefone</label><input type="tel" name="telefone" id="telefone" maxlength="15" required></div>
+            </div>
+            <button id="criar-conta">Criar conta</button>
+        </form>
+
+    </main>
+</body>
+</html>

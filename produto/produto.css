@@ -1,0 +1,155 @@
+:root{
+    --logo-font: 'Pattaya', sans-serif;
+    --most-text: 'Roboto', sans-serif;
+    --laranja: #F27706;
+    --branco: #FFFFFF;
+    --cinza: #747474;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--most-text);
+    color: var(--cinza);
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-rows: 1fr 28%;
+}
+picture{
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    place-content: center;
+    background-image: url(../img/pizza3.png);
+    background-size: cover;
+    background-position: center;
+    padding: 32px;
+}
+picture a{
+    display: grid;
+    position: fixed;
+}
+
+.info-produto{
+    background-color: var(--branco);
+    border-radius: 40px;
+    padding: 32px 24px;
+    position: relative;
+    display: grid;
+    gap: 4px;
+    top: -12%;
+}
+h1{
+    font-size: 1.5rem;
+    width: 80%;
+}
+.preco{
+    color: #23CB98;
+}
+.info-produto p{
+    font-size: 0.8rem;
+    padding: 4px;
+    line-height: 1.2rem;
+}
+
+.comentarios{
+    padding: 0 24px;
+    overflow-y: scroll;
+}
+h3{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.comentario{
+    background-color: #F5F5F5;
+    font-size: 0.8rem;
+    padding: 12px;
+    display: grid;
+    grid-template-rows: 48% 1fr;
+    gap: 8px;
+}
+.cabecalho-comentario{
+    display: flex;
+    align-items: center;
+}
+.info-comentario{
+    display: grid;
+    height: 100%;
+    padding: 8px;
+    place-content: center start;
+}
+.avaliacao-comentario{
+     display: flex;
+     height: 100%;
+     padding-left: 10%;
+     justify-content: end;
+}
+.avaliacao-comentario img{
+    height: 36%;
+}
+
+@media (min-width: 800px){
+
+    body{
+        background-image: linear-gradient(#f27806ce 60%, #fff3e700);
+        overflow: hidden;
+        grid-template-rows: 56% 44%;
+        padding: 48px;
+    }
+
+    .produto{
+        display: flex;
+        gap: 2vw;
+        padding-bottom: 12px;
+    }
+
+    picture{
+        height: 100%;
+    }
+    picture a{
+        display: grid;
+        position: fixed;
+    }
+    
+    .info-produto{
+        background-color: var(--branco);
+        border-radius: 0;
+        padding: 32px 24px;
+        display: grid;
+        gap: 4px;
+        top: 0;
+    }
+    .info-produto p{
+        font-size: 0.9rem;
+        padding: 4px 48px 4px 0;
+        line-height: 1rem;
+    }
+
+    .comentarios{
+        padding: 0 24px;
+        overflow-y: scroll;
+        background-color: var(--branco);
+        padding: 32px;
+        border-radius: 30px;
+    }
+    h3{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+    .comentario{
+        background-color: #F5F5F5;
+        font-size: 0.8rem;
+        padding: 12px;
+        display: grid;
+        grid-template-rows: 48% 1fr;
+        gap: 8px;
+    }
+}

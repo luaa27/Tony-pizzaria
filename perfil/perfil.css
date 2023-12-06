@@ -1,0 +1,115 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-image: url(../img/background.webp);
+    background-size: cover;
+    padding: 48px 28px;
+    color: var(--cor-texto);
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    height: 29.7vh;
+}
+header .return{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+header .profile{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1000;
+}
+header .profile .icon{
+    background-color: white;
+    border-radius: 50%;
+    height: 111px;
+    width: 111px;
+}
+header .profile .editIcon{
+    background-color: var(--cor-iconHomeHover);
+    height: 33px;
+    border-radius: 50%;
+    padding: 4px;
+    position: relative;
+    top: 76px;
+    left: -30px;
+    transition: .4s;
+}
+header .profile .editIcon:hover{
+    transform: scale(.9);
+}
+
+.white{
+    background-color: var(--cor-texto);
+    width: 100vw;
+    height: 82px;
+    position: absolute;
+    left: 0;
+    top: 170px;
+    border-radius: 36px 36px 0px 0px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    height: 55vh;
+}
+main .identification{
+    height: 50px;
+    display: grid;
+    justify-content: center;
+}
+main .identification p{
+    display: flex;
+    justify-content: center;
+    color: #AEA6A6;
+}
+main .information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+main .content{
+    border: 1.6px solid #e9c9ab;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+    gap: 12px;
+    height: 74px;
+    width: 323px;
+}
+main .content div{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+main .content div p{
+    color: #999999;
+    font-size: 14px;
+}
+main .content div h3{
+    font-size: 14px;
+}
+main .content .image{
+    background-color: #F4E2D1;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+.botaoPerfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}

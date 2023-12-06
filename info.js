@@ -1,31 +1,31 @@
 var perfil = {
     user: [
         {
-            nome: 'Fulano da Silva',
-            foto: 'fulano.jpg',
-            telefone: '(11) 99654-9898',
-            email: 'fulano.silva@gmail.com',
+            nome: 'luana',
+            foto: 'luana.jpg',
+            telefone: '(11) 96554-2323',
+            email: 'luana.santos@gmail.com',
             senha: '123456',
             localizacao: [
                 {
-                    rua: 'Rua Perto de Algum Lugar',
-                    bairro: 'Jardim Xurupita',
+                    rua: 'Uma rua bem criativa',
+                    bairro: 'Bairro bem legal',
                     pais: 'Brasil',
-                    cidade: 'Itapevi',
+                    cidade: 'Carapicuiba',
                     estado: 'São Paulo'
                 }
             ]
         },
         {
-            nome: 'Letícia Melo',
-            foto: 'leticia.jpg',
-            telefone: '(11) 99654-9898',
-            email: 'leticia.silva@gmail.com',
-            senha: 'abcdefg',
+            nome: 'Murilo Rodrigues',
+            foto: 'Murilo.jpg',
+            telefone: '(11) 92345-7890',
+            email: 'Muilo.rodrigues@gmail.com',
+            senha: '56789',
             localizacao: [
                 {
-                    rua: 'Alí mesmo',
-                    bairro: 'Não sei',
+                    rua: 'Rua bcana',
+                    bairro: 'criativo',
                     pais: 'Brasil',
                     cidade: 'Carapicuiba',
                     estado: 'São Paulo'
